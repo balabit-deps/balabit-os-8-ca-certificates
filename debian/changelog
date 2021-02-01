@@ -1,3 +1,12 @@
+ca-certificates (20210119~20.04.1) focal-security; urgency=medium
+
+  * Update ca-certificates database to 20210119 (LP: #1914064):
+    - mozilla/{certdata.txt,nssckbi.h}: Update Mozilla certificate
+      authority bundle to version 2.46.
+    - backport certain changes from the Ubuntu 20.10 20210119 package
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 01 Feb 2021 10:14:19 -0500
+
 ca-certificates (20201027ubuntu0.20.04.1) focal-security; urgency=medium
 
   * mozilla/{certdata.txt,nssckbi.h}:
