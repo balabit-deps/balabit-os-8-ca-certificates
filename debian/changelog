@@ -1,3 +1,11 @@
+ca-certificates (20210119~20.04.2) focal-security; urgency=medium
+
+  [ Dimitri John Ledkov ]
+  * mozilla/blacklist.txt: blacklist expired "DST Root CA X3".
+    (LP: #1944481)
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 22 Sep 2021 07:46:54 -0400
+
 ca-certificates (20210119~20.04.1) focal-security; urgency=medium
 
   * Update ca-certificates database to 20210119 (LP: #1914064):
