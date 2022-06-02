@@ -1,3 +1,12 @@
+ca-certificates (20211016~20.04.1) focal-security; urgency=medium
+
+  * Update ca-certificates database to 20211016 (LP: #1976631):
+    - mozilla/{certdata.txt,nssckbi.h}: Update Mozilla certificate
+      authority bundle to version 2.50.
+    - backport certain changes from the Ubuntu 22.04 LTS 20211016 package.
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Thu, 02 Jun 2022 10:19:50 -0400
+
 ca-certificates (20210119~20.04.2) focal-security; urgency=medium
 
   [ Dimitri John Ledkov ]
