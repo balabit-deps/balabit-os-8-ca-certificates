@@ -1,3 +1,12 @@
+ca-certificates (20211016ubuntu0.20.04.1) focal-security; urgency=medium
+
+  * Add Trustcor root certificates to mozilla/blacklist.txt: (LP: #1998785)
+    - "TrustCor RootCert CA-1"
+    - "TrustCor RootCert CA-2"
+    - "TrustCor ECA-1"
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 05 Dec 2022 07:22:26 -0500
+
 ca-certificates (20211016~20.04.1) focal-security; urgency=medium
 
   * Update ca-certificates database to 20211016 (LP: #1976631):
